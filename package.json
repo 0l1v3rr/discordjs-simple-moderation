@@ -1,0 +1,23 @@
+{
+  "name": "discordjs-simple-moderation",
+  "version": "1.0.0",
+  "description": "Discord.js Moderation bot. **Commands:** *!ban, !kick, !mute, !unmute, !warn*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0l1v3rr/discordjs-simple-moderation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0l1v3rr/discordjs-simple-moderation/issues"
+  },
+  "homepage": "https://github.com/0l1v3rr/discordjs-simple-moderation#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "ms": "^2.1.3"
+  }
+}
