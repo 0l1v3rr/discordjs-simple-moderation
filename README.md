@@ -1,27 +1,23 @@
 # Discord.js V13 Moderation Bot
-This is a simple moderation bot in **Discord.js v13**. <br>
+This is a simple Discord moderation bot in **Discord.js v13**. <br>
 You have to use **Node.js v16.6+**<br>
 You can find the **v12** version [here](https://github.com/0l1v3rr/discordjs-simple-moderation/tree/v12)
 
 ## Setup:
-Clone this repository:
+Download [Node.js](https://nodejs.org/)<br>
+Open a terminal and type these commands:
 ```sh
-$ git clone https://github.com/0l1v3rr/discordjs-simple-moderation.git
+git clone https://github.com/0l1v3rr/discordjs-simple-moderation.git
+cd discordjs-simple-moderation
+npm i
 ```
-Download [NodeJS](https://nodejs.org/)<br>
-Open a terminal that points to your folder --> type these commands: (maybe you have to delete the `package.json` file)
+Now, open the **index.js** file and paste your token and your muted_role id to the correct positions. It's marked in the code with comments.<br>
+Then you can run the index.js file:
 ```sh
-$ npm init
-$ npm i discord.js ms
-```
-Open the **index.js** file and paste your token and your muted_role id to the correct positions. It's marked in the code with comments.
-<br>Run the index.js file:
-```sh
-$ node index.js
+node index.js
 ```
 -------------
 ## Some important things:
-- Make sure you have fs and ms.
 - Make sure you have `{}` in your warns.json file.
 - Make sure you entered your *Muted* role id in the code.
   - ```js
